@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import {Link} from 'react-router-dom'
 import { AllContext } from '../AllContext'
 
-function LatestArtCat3() {
+function LatestArticleCategory2() {
     const tech3 = []
     const techAll = []
     const [result, setResult] = []
@@ -44,7 +44,7 @@ function LatestArtCat3() {
         SetVisible(false)
         setResult(tech3)
     }
-    console.log("ssss", result);
+    console.log( result);
     return (
         
              <div className='FlexRow'>
@@ -65,7 +65,7 @@ function LatestArtCat3() {
 
                             <div>
                             <div className='cardTitle'>{latest.name}</div>
-                                    {/* <div className='cardDec '>About : {latest.detail.slice(0,100)} </div> */}
+                                    
                                     <p className='cardDate'>{latest.category}<span className='cardDec'> / {latest.date}</span></p>
                            </div>
                        </div>
@@ -77,4 +77,4 @@ function LatestArtCat3() {
     )
 }
 
-export default LatestArtCat3
+export default LatestArticleCategory2

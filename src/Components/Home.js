@@ -1,14 +1,10 @@
-
 import React from 'react'
-// import Bollywood from './Bollywood'
-// import HomeFeaturedArticles from './HomeFeaturedArticles'
-
 
 import FeaturedArticle from './homeCompo/FeaturedArticle'
 import LatestArtAll from './homeCompo/LatestArtAll'
 import LatestArtCat1 from './homeCompo/LatestArticleCategory1'
-import LatestArtCat2 from './homeCompo/LatestArticleCategory22'
-import LatestArtCat3 from './homeCompo/LatestArticleCategory22'
+import LatestArticleCategory2 from './homeCompo/LatestArticleCategory2'
+import LatestArticleCategory22 from './homeCompo/LatestArticleCategory22'
 import TopArtWebsite from './homeCompo/TopArtWebsite'
 
 function Home() {
@@ -35,11 +31,11 @@ function Home() {
                 </div>
             <div className='homeLatestTxt'><div className='articleHtext'>Latest </div>  Technology Article</div>
               
-            <LatestArtCat2/>
+            <LatestArticleCategory2/>
             <div className='homeLatestTxt'><div className='articleHtext'>Latest </div>  Fitness Article</div>
               
               
-              <LatestArtCat3/>
+              <LatestArticleCategory22/>
             </div>
             <div className='homeLatestTxt'>
           <div className='TxtBorder'>
