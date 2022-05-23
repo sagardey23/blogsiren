@@ -1,0 +1,471 @@
+body{
+  margin-left: 50px;
+  width: 100%;
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+
+/*  Header Component */
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+    
+}
+
+.the-text{
+    top: 85px;
+    left: 814px;
+    width: 39px;
+    height: 60px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+  
+    /* ui */
+    text-align: left;
+    font: normal normal medium 32px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1; 
+}
+.siren-text{
+    top: 71px;
+    left: 873px;
+    width: 190px;
+    height: 87px;
+  
+    /*  */
+    text-align: center;
+    font: normal normal bold 71px/87px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.header-ul-parent{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eae9f1;
+    border-bottom: 1px solid  #0f0c29 ;
+    /* background-color: #eae9f1; */
+  /* border-bottom: 1px solid #0f0c29; */
+  width: 94%;
+  border-radius:15px ;
+}
+.header-ul{
+    display: flex;
+}
+.header-li-items{
+    color: #0f0c29;
+    font-size: 20px;
+    font-style: Montserrat;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+
+
+
+/* Home Component */
+
+
+
+
+
+/* Bollywood Component */
+.bollytext{
+    top: 338px;
+    left: 276px;
+    width: 213px;
+    height: 49px;
+
+    text-align: left;
+    font: normal normal medium 40px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .bollyparent1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .bollyparent2{
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
+  }
+  .imagesizing{
+    height: 180px;
+    width: 450px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+/* xxxxxxxxxxxxx new styling */
+
+
+
+/* Home */
+.FlexRow {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.homeLatestTxt{
+  margin:30px 0px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 600;
+  
+}
+
+.TxtBorder{
+  margin-right: 5px;
+  width: 40px;
+ border-bottom: 3px pink solid;
+}
+.homeLatestTxt{
+  margin:30px 0px;
+    display: inline-block;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 600;
+  
+}
+.articleHtext{
+  margin-right: 5px;
+    width: 67px;
+   border-bottom: 3px pink solid;
+
+}
+
+.ArtFlxCol{
+  border-top:  1px solid rgb(0, 0, 0,.1) ;
+  width: 900px;
+  padding: 30px 5px 0px 0px;
+}
+.artVerticleImg{
+      
+  width: 700px;
+  height: 350px;
+}
+.marginLeft{
+  margin-left: 45px;
+ }
+ .Advertistement{
+  margin-top: 30px;
+  width: 300px;
+height: 300px;
+border: 2px black solid;
+position: relative;
+
+}
+.homeLatestTxt{
+  margin:30px 0px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 600;
+  
+}
+.TxtBorder{
+  margin-right: 5px;
+  width: 40px;
+ border-bottom: 3px pink solid;
+}
+
+
+
+
+
+
+
+
+
+
+/* Featured Article */
+
+.FeatureArtBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.FeatureBox1 {
+  color: rgb(137, 133, 132);
+  font-size: 30px;
+  position: relative;
+  height: 450px;
+  width: 750px;
+  margin: 30px 20px;
+  /* flex: 4; */
+}
+
+.FeatureBox2 {
+  color: rgb(237, 240, 236);
+  font-size: 15px;
+  position: relative;
+  height: 210px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  /* flex: 2; */
+}
+
+.FeatureImgBox1 {
+  position: absolute;
+  height: 450px;
+  width: 750px;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+}
+
+.FeatureImgBox2 {
+  position: absolute;
+  height: 210px;
+  width: 500px;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+
+
+}
+
+.box1Txt {
+  position: absolute;
+  top: 50px;
+  left: 100px
+}
+
+.box1TxtDate {
+
+  position: absolute;
+  bottom: 9px;
+  left: 14px
+}
+
+
+
+
+
+/* LatestArtAll */
+
+.cardImgBox {
+  margin-right: 5px;
+  border-radius: 25px;
+  width: 429px;
+  height: 220px;
+  margin-left: 5px;
+}
+.cardTitle{
+  width: 250px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #404040;
+
+}
+.cardDec{
+  font-size: 14px;
+  color: #908D8D;
+}
+.cardDate{
+  color: #404040;
+  font-size: 16px;
+
+}
+
+
+/* Latest Tech Art*/
+
+.loadMore {
+  margin: 5px 20px 9px;
+  border: none;
+  /* background: #1e5f1e; */
+  border-radius: 4px;
+  height: 20px;
+  padding: 3px;
+  color: rgb(8, 5, 205);
+}
+
+
+
+/* TopArtWebsite */
+
+.topArtContainer{
+  width: 300px;
+  height: 250px;
+} 
+.topArtImgBox{
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 300px;
+  height: 180px;
+}
+.FlexRow1{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+
+}
+.top1ArtTitle{
+  font-weight: 600;
+   margin-right: 10px;
+  border-radius: 3px;
+  width: 218px;
+  height: 70px;
+}
+.topArtIndex{
+  font-size: 35px;
+  color: #e4e1e1;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 60px;
+  height: 70px;
+}
+.topArtImgBox2{
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 80px;
+  height: 80px;
+}
+.topArtTitle{
+  font-weight: 600;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 130px;
+  height: 80px;
+}
+
+/* Art Reading */
+
+.readJustifyCenter{
+  justify-content: center;
+ }
+ .ReadArtBox{
+  width: 350px;
+}
+.borderShadow {
+  border: 2px solid rgb(223, 219, 219,.5);
+  margin-top: 30px;
+  padding: 5px;
+  
+}
+.txtAlignCenter {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: gray;
+}
+.jstSpaceBeetben{
+  justify-content: space-between;
+}
+.readArtImg{
+  margin: 20px;
+  border-radius:12px ;
+  width: 310px;
+  height: 200px;
+}
+
+
+
+
+/* flex */
+.left{
+  flex: 6;
+}
+.right{
+  flex: 3;
+}
+.categories-parent{
+  display: flex;
+}
+
+@media only screen and (max-width: 640px) {
+
+  /* body{
+      display: flex;
+    } */
+  .FeatureArtBox {
+    width: 100%;
+  }
+
+  .FeatureBox1 {
+    height: 250px;
+    width: 100%;
+  }
+  
+
+  .FeatureImgBox1 {
+    height: 250px;
+    width: 100%;
+  }
+
+  .FeatureBox2 {
+    color: burlywood;
+    display: none;
+
+  }
+
+  .FlexRow {
+    display: flex;
+
+  }
+  .cardImgBox {
+    margin-right: 10px;
+    border-radius: 25px;
+    width: 323px;
+    height: 158px;
+  }
+  .cardTitle {
+    margin-left: 37px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .cardDec {
+    text-align: center;
+    width: 335px;
+  }
+  .cardDate {
+    width: 335px;
+  }
+  .ArtFlxCol {
+    width: 355px;
+  }
+  .artVerticleImg {
+    width: 353px;
+    height: 350px;
+  }
+  .marginLeft{
+    margin: 0px;
+   }
+   .Advertistement{
+    display: none;
+    
+    }
+    .topArtContainer{
+      width: 320px;
+     height: 0%;
+    } 
+    .topArtTitle {
+      font-weight: 600;
+      margin-right: 10px;
+      border-radius: 3px;
+      width: 120px;
+      height: 80px;
+    }
+    
+
+
+}
